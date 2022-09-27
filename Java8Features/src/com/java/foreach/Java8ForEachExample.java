@@ -15,12 +15,13 @@ public class Java8ForEachExample {
 			myList.add(i);
 			System.out.println("array values at index : [" + i + "] :" + myList.add(i));
 
-			// traversing using Iterator
+		}
+		// traversing using Iterator
 
-			Iterator<Integer> it = myList.iterator();
-			while (it.hasNext()) {
-				int j = it.next();
-				System.out.println("Iterator values" + j);
+		Iterator<Integer> it = myList.iterator();
+		while (it.hasNext()) {
+			int j = it.next();
+			System.out.println("Iterator values" + j);
 
 			}
 		}
