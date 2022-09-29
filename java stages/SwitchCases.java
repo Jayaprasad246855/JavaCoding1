@@ -1,5 +1,5 @@
 
-public class stage1 {
+public class SwitchCases {
 
 	public static void main(String[] args) {
 		int time = 25;
