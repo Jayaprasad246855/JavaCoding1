@@ -13,7 +13,6 @@ public class Java8ForEachExample {
 		for (int i = 0; i <= 20; i++) {
 
 			myList.add(i);
-			System.out.println("array values at index : [" + i + "] :" + myList.add(i));
 
 		}
 		// traversing using Iterator
@@ -23,8 +22,6 @@ public class Java8ForEachExample {
 			int j = it.next();
 			System.out.println("Iterator values" + j);
 
-			}
 		}
-
 	}
 }
