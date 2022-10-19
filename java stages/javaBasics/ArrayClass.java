@@ -24,12 +24,12 @@ public class ArrayClass {
 			a[17]=999;
 			a[18]=1000;
 			a[19]=1001;
-			System.out.println(a[20]);
+			System.out.println(a[19]);
 			for(int i=0; i<a.length; i++){
 			System.out.println("Forward Value's of array:"+ a[i]);
 			}
 			
-			for(int j=(a.length-1);j!=0; j--){
+			for(int j=(a.length-1);j!=-1; j--){
 			System.out.println("Reverse Value's of array:"+ a[j]);
 			}
 				}

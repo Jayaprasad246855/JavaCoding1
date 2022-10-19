@@ -57,10 +57,17 @@ class SuperChildClass extends GrantChild {
 	SuperChildClass(int i, int j) {
 		System.out.println(i * j);
 	}
+
+	void sister() {
+		System.out.println("My sister's are self empoliyee's ");
+	}
+
 }
 
 public class TotalOopsConspects {
-	public static void main(String args[]) { // Main Method
+	public static void main(String args[]) {
+		// Main Method
+
 		SuperChildClass obj = new SuperChildClass();
 		System.out.println(obj.surname);
 		System.out.println(obj.phnum);
