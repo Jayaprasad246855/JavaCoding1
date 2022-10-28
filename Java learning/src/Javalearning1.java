@@ -1,14 +1,6 @@
 
 public class Javalearning1 {
 
-//	public void add(String name) {
-//		System.out.println(name);
-//	}
-//
-//	public void sub() {
-//
-//	}
-
 	public static void main(String[] args) {
 
 		for (String arg : args) {

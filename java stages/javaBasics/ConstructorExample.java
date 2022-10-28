@@ -60,5 +60,8 @@ public class ConstructorExample
 		System.out.println(obj4.age);
 		System.out.println(obj4.weight);
 		System.out.println(obj4.color);
+		
+		ConstructorExample obj5 = new ConstructorExample("burra pad",34);
+		
 	}
 }

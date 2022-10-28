@@ -60,7 +60,7 @@ public class ListExample {
 
 		Vector<Integer> vec = new Vector<Integer>();
 
-		vec.add(11);
+		vec.add(1);
 		vec.add(22);
 		vec.add(333);
 		vec.add(4444);

@@ -1,6 +1,6 @@
 public class primeNumbers {
-	static String name1 = "jai";     	//Static variable
-	String name2 = "rekha";			// instance variable
+	static String name1 = "jai"; // Static variable
+	String name2 = "rekha"; // instance variable
 
 	public static void main(String arg[]) {
 
@@ -8,7 +8,7 @@ public class primeNumbers {
 
 		primeNumbers pn = new primeNumbers();
 
-		int lastnum = 50;					//Local variable
+		int lastnum = 50; // Local variable
 
 		for (int i = 4; i < lastnum; i++) {
 			int count = 0;

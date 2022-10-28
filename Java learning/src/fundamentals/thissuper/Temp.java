@@ -16,6 +16,6 @@ class Temp extends Object {
 	}
 
 	public static void main(String args[]) {
-		Temp obj=new Temp();
+		Temp obj = new Temp();
 	}
 }
