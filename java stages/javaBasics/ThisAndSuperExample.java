@@ -1,18 +1,21 @@
 package javaBasics;
 
 class ThisExample{
-	String name;
-	String name1;
-	int age;
+	String name= "sdfjgkdh";
+	String name1="sdf";
+	int age=234;
 	public ThisExample(){
-		this(" ");
+		this("hhj ");
 	}
 	public ThisExample(String name){
-		this(name, " ");
+		this("fjh", " ");
+		this.name=name;
 		System.out.println("print first name ="+name);
 	}
 	public ThisExample(String name, String name1){
-		this(name, name1, 23);
+		this("kgjk", "kgjhgjhg", 23);
+		this.name=name;
+		this.name1=name1;
 		System.out.println("print full name ="+name+" "+name1);
 	}
 	public ThisExample(String name, String name1, int age){
@@ -50,6 +53,8 @@ public class ThisAndSuperExample extends ThisDotClass{
 		System.out.println(obj2.name);
 		System.out.println(obj2.name1);
 		System.out.println(obj2.age);
+		
+		ThisExample obj3 = new ThisExample();
 		
 	}
 }

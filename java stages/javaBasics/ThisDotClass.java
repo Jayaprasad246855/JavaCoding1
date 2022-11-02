@@ -1,9 +1,9 @@
 package javaBasics;
 
 public class ThisDotClass {
-	String name;
-	String name1;
-	int age;
+	String name="sdjksf";
+	String name1="skfjlks";
+	int age=22;
 
 	public ThisDotClass() {
 		this("jai");
