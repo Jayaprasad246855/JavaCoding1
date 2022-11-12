@@ -1,3 +1,7 @@
+
+
+
+
 package javastages.palindrome;
 
 import java.util.Scanner;

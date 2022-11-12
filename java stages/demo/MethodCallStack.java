@@ -16,7 +16,11 @@ public class MethodCallStack {
         System.out.println("in run3()");
         try{
             System.out.println(1/0);
-        }catch (Exception e)
+        }catch(ArithmeticException e){
+        	System.out.println("Athametic Exception");
+        	e.printStackTrace();
+        }
+        catch (Exception e)
         {
             e.printStackTrace();
         }

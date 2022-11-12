@@ -1,9 +1,11 @@
 package java8Features.collections;
 
-import threads.atmExample.Benificiary;
-
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
+
+import threads.atmExample.Benificiary;
 
 public class CustomList {
     public static void main(String[] args) {
@@ -19,21 +21,21 @@ public class CustomList {
         l.add(b4);
         l.add(b5);
 
-//        for(int i=0;i<l.size();i++)
-//        {
-//            Benificiary b=l.get(i);
-//            if(b.requiredAmount>10000 && b.requiredAmount<=40000)
-//            {
-//                System.out.println("valid");
-//            }else{
-//                l.remove(b);
-//            }
-//        }
-//        System.out.println(l);
+        for(int i=0;i<l.size();i++)
+        {
+            Benificiary b=l.get(i);
+            if(b.requiredAmount>10000 && b.requiredAmount<40000)
+            {
+                System.out.println("valid");
+            }else{
+                l.remove(b);
+            }
+        }
+        System.out.println(l);
 
-//        l.stream().sorted((i, j) -> i.requiredAmount > j.requiredAmount ? 1 : -1)
-//                .dropWhile(i->i.requiredAmount>10000)
-//                .forEach(i-> System.out.println(i));
+        l.stream().sorted((i, j) -> i.requiredAmount > j.requiredAmount ? 1 : -1)
+                .dropWhile(i->i.requiredAmount>10000)
+                .forEach(i-> System.out.println(i));
 
 
         Map<String,Benificiary> map=l.stream()
@@ -43,6 +45,12 @@ public class CustomList {
         System.out.println(map);
 
 
-//                .max((i,j)->i.requiredAmount>j.requiredAmount?1:-1).get();
+		/*
+		 * List<String>l1 =(List<String>) l.stream()
+		 * .max((i,j)->i.requiredAmount>j.requiredAmount?1:-1).get();
+		 * 
+		 * System.out.println(l1);
+		 */      
+             
     }
 }

@@ -25,6 +25,6 @@ public class SYnchronisationDemo implements Runnable{
         t3.start();
         Thread.sleep(600);
         System.out.println("in main meth="+SYnchronisationDemo.i);
-
+        
     }
 }

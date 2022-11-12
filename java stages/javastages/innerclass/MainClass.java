@@ -19,7 +19,6 @@ class World {
 		public void display() {
 			System.out.println("trying to changes the values in innerclass");
 		}
-
 		static class Districts {
 
 			String nameOfDistricts = "Krishan, YSR,East Godavari";

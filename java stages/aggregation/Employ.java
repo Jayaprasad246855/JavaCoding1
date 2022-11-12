@@ -29,5 +29,4 @@ public class Employ {
         this.designation = designation;
     }
 
-
 }

@@ -12,7 +12,7 @@ public class MultiDimentionalArrays {
 		n = sc.nextInt();
 		int[] array = new int[n];
 		for (int i = 0; i < array.length; i++) {
-			array[i] = i * i + 1;
+			array[i] = i * i;
 			System.out.println("List of value at index number array[" + i + "] =" + array[i]);
 		}
 		int[][] arr = new int[3][3];
@@ -22,7 +22,6 @@ public class MultiDimentionalArrays {
 				arr[i][j] = r.nextInt(10) + 1;
 
 				System.out.println("at index " + i + " and " + j + " = " + arr[i][j]);
-
 			}
 		}
 	}

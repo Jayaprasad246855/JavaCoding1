@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.Vector;
 
 public class ListExample {
-	public static void main(String[] args) {
+	public static void main(String[] args){
 
 		ArrayList<Integer> list = new ArrayList<Integer>();
 
@@ -16,7 +16,7 @@ public class ListExample {
 		list.add(1234);
 
 		Iterator<Integer> itr = list.iterator();
-
+		
 		while (itr.hasNext()) {
 
 			int obj = itr.next();
