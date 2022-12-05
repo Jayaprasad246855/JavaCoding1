@@ -2,18 +2,18 @@ package innerClass;
 
 class Automobile {
     static String tyres="rubber";
-    String paint=" paint";
-    String brakes=" brakes";
+    String paint=" Dark red";
+    String brakes=" Hydralic brakes ";
 
     public void display()
     {
-        System.out.println("in Automobile class "+tyres+paint+brakes);
+        System.out.println("in Automobile class =  "+tyres +" , "+paint+" , "+brakes);
     }
      static class Car{
-        String size="small";
+        String size="Mega wheel";
         public void changeValue() {
-            tyres = " small rubber";
-            System.out.println("in car class size="+size+" changed tyre value="+tyres);
+            tyres = "synthatic rubber";
+            System.out.println("in car class size = " +size+",changed tyre value = " +tyres);
         }
          class BMW{
             String company="BMW car company";
@@ -28,10 +28,13 @@ class Automobile {
 public class Demo{
     public static void main(String[] args) {
 
-        Automobile.Car c=new Automobile.Car();
-        c.changeValue();
+        Automobile.Car car=new Automobile.Car();
+        car.changeValue();
 
-        Automobile.Car.BMW bmw=c.new BMW();
+        Automobile.Car.BMW bmw = car.new BMW();
         bmw.changeValue();
+        
+        Automobile automobile = new Automobile();
+        automobile.display();
     }
 }

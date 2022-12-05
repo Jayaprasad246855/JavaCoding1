@@ -1,9 +1,9 @@
 package aggregation;
 
 public class Employ {
-    private int empId=123;
-    private String officeLocation="Hyderabad";
-    private String designation="associate";
+    private int empId=11111;
+    private String officeLocation="gddgd";
+    private String designation="gfgdfgxs";
 
     public int getEmpId() {
         return empId;

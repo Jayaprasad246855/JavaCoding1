@@ -18,5 +18,6 @@ public class InterfaceFeatureImpl implements InterfaceFeatures,InterfaceFeatures
         InterfaceFeatures.printStatic();
         i1.printDefault();
         i1.print();
+        
     }
 }

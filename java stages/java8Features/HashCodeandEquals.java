@@ -18,7 +18,5 @@ public class HashCodeandEquals {
         map.put(drinks2,"drinks2");
         System.out.println(map.get(drinks1)+" , "+map.get(drinks2));
         System.out.println(drinks1==drinks2);
-
     }
 }
-

@@ -80,6 +80,5 @@ public class ListExample {
 		System.out.println("---------after applying the methods------------");
 
 		System.out.println(vec);
-
 	}
 }

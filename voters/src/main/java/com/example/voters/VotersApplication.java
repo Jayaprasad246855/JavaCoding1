@@ -1,13 +1,14 @@
-package com.javaexample.springbootcrudoperations;
+package com.example.voters;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootCrudoperationsApplication {
+public class VotersApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootCrudoperationsApplication.class, args);
-		
+		SpringApplication.run(VotersApplication.class, args);
+
 	}
+
 }
